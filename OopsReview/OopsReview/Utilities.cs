@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPsReview1
+namespace OopsReview
 {
     public static class Utilities
     {
-        //static classes are Not instantiated by the outsider user (developer)
-        //static class items are referred using the classname.xxxx
-        //method within this class have the keyword static in their signature
+        //static class are NOT instantiated by the outside user (developer)
+        //static class items are referenced using the classname.xxxxx
+        //methods within this class have the keyword static in their signature
         //static classes are shared between all outside user at the SAME time
-        //DO not consider saving data within a static class because you cannot be
+        //DO NOT consider saving data within a static class BECAUSE you cannot be
         //  certain it will be there went you use the class again
         //consider placing GENERIC re-usable methods within a static class
 
@@ -47,4 +47,3 @@ namespace OOPsReview1
         }
     }
 }
-
