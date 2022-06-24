@@ -3,8 +3,25 @@
 @{
     ViewData["Title"] = "Home page";
 }
+@*
+    The web page is made up of 2 major components:
+    a) the layout page located in the folder /pages/ shared as a file called _Layout
+    b) the content page
+*@
+<!-- 
+    comments via html comment 
+-->
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to the world of Razor Pages</h1>
+
+    <h1>Welcome to the world of Razor Pages</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+
+
+@if(string.IsNullOrWhiteSpace(Model.MyName))
+{
+    <p>the world of Razor Pages is apparently in an odd state at this time.</p>
+}
+else 
+{
+    <p>@Model.MyName</p>
+}
