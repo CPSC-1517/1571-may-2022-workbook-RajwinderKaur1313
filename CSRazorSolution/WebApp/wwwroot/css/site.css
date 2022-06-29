@@ -16,3 +16,60 @@ html {
 body {
   margin-bottom: 60px;
 }
+/*body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+    body header, body main, body footer, body article {
+        position: relative;
+        max-width: 80rem;
+        margin: 0 auto;
+    }
+
+    body > header {
+        max-width: 100%;
+        margin: 0;
+    }
+
+        body > header > nav {
+            display: grid;
+            grid-template-columns: auto 80rem auto;
+            background-color: black;
+            color: white;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+            body > header > nav > ul {
+                margin: 1rem;
+            }
+
+nav > ul > li {
+    margin-top: 0.25em;
+}
+
+body > header a, body > header a:visited {
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header > figure {
+    height: 200px;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+header > nav > ul:last-child {
+    text-align: right;
+}
+
+main > *:first-child {
+    margin-top: 1rem;
+}*/

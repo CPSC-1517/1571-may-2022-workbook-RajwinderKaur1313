@@ -10,21 +10,34 @@
 </head>
 <body>
     <header>
-        <nav>
-                
+        @*Holiday .css.menu*@
+                 <nav>
                     <ul>
+                        <li>
+                           <a  asp-area="" asp-page="/Index"><img src="~/img/WestWindLogo.png" alt="Logo image" title="Go to Home" width="80px" height="80px"/></a>
+                       </li>
                         <li>
                             <a asp-area="" asp-page="/Index">Home</a>
                         </li>
+                        @*Sub-Menu*@
+
                         <li>
-                            <a asp-area="" 
-                              asp-page="/Samples/BasicDataManagement">Basics</a>
-                       </li>
+                            <span>Samples</span>
+                            <ul>
+                            <li>
+                               <a asp-area="" 
+                                asp-page="/Samples/BasicDataManagement">Basics</a>
+                             </li>
+                             <li>
+                               <a asp-area="" 
+                               asp-page="/Samples/Controls">Controls</a>
+                             </li>
+                            </ul>
+                         </li>
                         <li>
                             <a asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
-                    </ul>
-                
+                   </ul>        
         </nav>
     </header>
     <div >
